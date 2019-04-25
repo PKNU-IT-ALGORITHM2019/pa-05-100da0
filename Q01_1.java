@@ -140,7 +140,7 @@ public class Q01_1 {
 			String[] arr= p.data.split("\\(");
 			if(arr[0].compareToIgnoreCase(key)==0) { 
 				deleteNode = p; 
-				System.out.println(arr[0]);
+				//System.out.println(arr[0]);
 				break;
 			}
 			parent = p;
